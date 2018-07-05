@@ -26,6 +26,10 @@
 
   // Create a constant to store your Slack URL
   //phpinfo();
+#*************for reference:-https://tosbourn.com/posting-to-slack-with-php/*****************
+#for getting credentials of webhook:-https://testprojectsonal.slack.com/services/BBJL0UWV7?added=1
+
+
   define('SLACK_WEBHOOK', 'https://hooks.slack.com/services/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');
   // Make your message
   $message = array('payload' => json_encode(array('text' => 'My Second API Message')));
